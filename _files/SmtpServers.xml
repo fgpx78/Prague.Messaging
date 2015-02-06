@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SmtpServers>
+    <!--<SmtpServer Address="127.0.0.1" Port="25" MailFrom="" EnableSsl="false" MailCC="" MailBCC="" SendIntervalSeconds="1" />
+    <SmtpServer Address="127.0.0.2" Port="25" Username="testUser" Password="testPassword" MailFrom="" EnableSsl="true" MailCC="" MailBCC="" SendIntervalSeconds="1" />
+    <SmtpServer Address="127.0.0.3" Port="25" MailFrom="" EnableSsl="false" MailCC="" MailBCC="" SendIntervalSeconds="1" />-->
+    <SmtpServer Address="smtp.gmail.com" Port="587" Username="someaddress@gmail.com" Password="" MailFrom="someaddress@gmail.com" EnableSsl="true" MailCC="" MailBCC="" SendIntervalSeconds="1" />
+
+  </SmtpServers>
+</root>
